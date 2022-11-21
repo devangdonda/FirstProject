@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Payment Form</Form>
+    </title>
+</head>
+
+<body>
+    <form action="">
+        <h1> Payment Form </h1>
+        <h2> Contact Information </h2>
+        <p> Required field are followed by * </p>
+        <p> Name: * <input type="text" name="name" required> </p>
+        <div>
+            <fieldset>
+                <legend > Gender * </legend>
+                Male <input type="radio" name="gender" id="male" required>
+                Female <input type="radio" name="gender" id="female" required>
+                Trans <input type="radio" name="gender" id="trans" required>
+                Do not Prefer to Answer <input type="radio" name="gender" id="none" required>
+            </fieldset>
+        </div>
+        <p> Address: <textarea name="address" id="address" cols="60" rows="8"></textarea></p>
+        <p> Email: * <input type="email" name="email" id="email" required></p>
+        <p> PinCode: <input type="number" name="pin" id="pin"></p>
+        <div>
+            <p> Card> Type: *
+                <select name="card_type" id="card_type" required>
+                    <option value="">--Select a Card Type--</option>
+                    <option value="Visa">Visa</option>
+                    <option value="MasterCard">MasterCard</option>
+                    <option value="Rupay">Rupay</option>
+                    <option value="BMO Credit Card">BMO Credit Card</option>
+                </select>
+            </p>
+            <p> Card Number: * <input type="number" name="card_number" id="card_number" required></p>
+            <p> Expiration Date: * <input type="date" name="exp_date" id="exp_date" required></p>
+            <p> CVV: * <input type="password" name="cvv" id="cvv" required></p>
+        </div>
+        <p> <input type="submit" value="Pay Now"> </p>
+        <p> <input type="reset" value="Reset"> </p>
+
+    </form>
+</body>
+
+</html>

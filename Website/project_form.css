@@ -1,0 +1,22 @@
+input[type=text],input[type=email],textarea {
+
+    width: 100%;
+    padding: 12px;
+}
+div {
+    background-color: antiquewhite;
+    padding: 15px;
+}
+input[type=submit]{
+    background-color: aqua;
+    padding: 8px;
+    border-radius: 5px;
+    border: solid rgb(22, 202, 202);
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: greenyellow;
+}
+label {
+    color: brown;
+}
