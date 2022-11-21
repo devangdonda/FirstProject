@@ -1,22 +1,59 @@
 input[type=text],input[type=email],textarea {
-
-    width: 100%;
-    padding: 12px;
+    box-shadow: 0 8px 16px 0 rgba(127, 255, 212, 0.555), 0 6px 20px 0 rgba(206, 255, 127, 0.555);
+    width: 99%;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: solid thin rgb(27, 160, 0);
+    border-radius: 10px;
+    margin-top: 8px;
 }
-div {
-    background-color: antiquewhite;
-    padding: 15px;
+form div {
+    background-color: transparent;
+    padding: 20px;
+    size:inherit;
 }
-input[type=submit]{
-    background-color: aqua;
+button[type=submit]{
+    margin-left: 46%;
+    background-color: rgb(68, 255, 193);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    size: 20px;
     padding: 8px;
     border-radius: 5px;
-    border: solid rgb(22, 202, 202);
+    border: solid rgb(36, 168, 124);
     cursor: pointer;
+    font-size: 50px;
+    color: rgb(0, 3, 83);
 }
-input[type=submit]:hover {
-    background-color: greenyellow;
+button[type=submit]:hover {
+    background-color: rgb(0, 255, 170);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 25px 70px 0 rgba(0,0,0,0.19);
 }
-label {
-    color: brown;
+label.detail {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight:bolder;
+    text-shadow: 0 0 5px #ffffff, 0 0 5px #ffffff
+}
+label.main {
+    color: rgb(63, 41, 0);
+    font-weight: 1000;
+    font-size: 60px;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(0, 63, 13);
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 1.3px;
+    size: 100%;
+    background-image: url(../Website/gradienta-26WixHTutxc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+div.heading {
+    text-align: center;
+    line-height: 25px;
+    background-color: transparent;
 }

@@ -6,31 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Form</title>
     <link rel="stylesheet" href="project_form.css">
+    <link rel="shortcut icon" href="../Website/credit-card.png" type="image/x-icon">
 </head>
 <body>
     <form action="">
         <header>
-            <p >Contact Form<br>
-            Please fill all texts in the fields.</p>
+            <div class ="heading">
+                <label class = "main">Contact Form</label><br>
+                <p style="font-size: 22px; font-weight: 600;">Please fill all texts in the fields.</p>
+            </div>
         </header>
         <div>
-            <label for = "name">Your Name:</label><br>
-            <input type="text" name="name" id="name" placeholder="Your Full Name" width="100%"><br>
-            <p></p>
+            <label for = "name" class = "detail">Your Name:</label><br>
+            <input type="text" name="name" id="name" placeholder="Your Full Name" width="100%" style="font-size:25px;"><br>
+            <br><br>
 
-            <label for="email" class = "b">Your Email:</label><br>
-            <input type="email" name="email" id="email" placeholder="Valid Email Address" width="100%">
-            <p></p>
+            <label for="email" class = "detail">Your Email:</label><br>
+            <input type="email" name="email" id="email" placeholder="Valid Email Address" width="100%" style="font-size:25px;">
+            <br><br><br>
 
-            <label for="message">Message:</label><br>
-            <textarea name="message" id="message" rows="10" placeholder="Message" width="100%"></textarea><br>
-            <p></p>
+            <label for="message" class = "detail">Message:</label><br>
+            <textarea name="message" id="message" rows="8" placeholder="Message" width="100%" style="font-size:25px;"></textarea><br>
+            <br><br>
             
-            <label for="subject">Subject:</label><br>
-            <input type="text" name="subject" id="subject" placeholder="Job Inquiry" width="100%"><br>
-            <p></p>
+            <label for="subject" class = "detail">Subject:</label><br>
+            <input type="text" name="subject" id="subject" placeholder="Job Inquiry" width="100%" style="font-size:25px;"><br>
+            <br><br>
 
-            <input type="submit" value="Send">
+            <button type="submit"> Place </button>
 
         </div>
     </form>
