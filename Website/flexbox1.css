@@ -1,0 +1,54 @@
+.flex-container {
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+.flex-container > div {
+    border-radius: 12px;
+    background-color: #f1f1f1;
+    margin: 3px;
+    padding: 5px;
+    font-size: 30px
+}
+.item1, .item2, .item3 {
+    align-self: flex-start;
+    height: 289px;
+    width: 30.8%;
+}
+.item5, .item6, .item7, .item4 {
+    align-self:center;
+    width: 23.3%;
+}
+.item8, .item9, .item10, .item11, .item12 {
+    align-self: flex-end;
+    width: 18.5%;
+}
+.item1 {
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.item1 > div {
+    border-radius: 12px;
+    background-color: pink;
+    margin: 3px;
+    padding: 5px;
+    font-size: 30px
+}
+.item13, .item14, .item15 {
+    height: 130px;
+    width: 28.7%;
+}
+.item18, .item16, .item17, .item19 {
+    
+    width: 20.4%;
+}
+.item24, .item23, .item20, .item21, .item22 {
+    
+    width: 15.4%;
+}

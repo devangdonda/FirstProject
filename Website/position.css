@@ -1,0 +1,16 @@
+div.nav1 {
+    position: -webkit-sticky;
+    position: sticky;
+    top:0px;
+    background-color: grey;
+    padding: 10px;
+}
+.main {
+    background-color: purple;
+    padding: 15px;
+    height: 300px;
+    font-weight: bold;
+    color:lightskyblue;
+    text-align: center;
+    line-height: 280px;
+}
