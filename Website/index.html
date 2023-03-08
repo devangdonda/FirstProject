@@ -1,102 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" >
 <head>
-  <title> Devang Donda </title>
+  <meta charset="UTF-8">
+  <title>Muszelus</title>
+  <link rel="icon" type="image/x-icon" href="/wreath.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Open Sans -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+
+<script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://codepen.io/CodeBoomer/pen/PzgWYp.css'><link rel="stylesheet" href="./style.css">
+
 </head>
-
 <body>
-  <h1> This is my First Step towards my website.</h1>
-  <hr>
-  <p>
-    <b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> <i> Cumque officiis corrupti pariatur assumenda sed,
-      aut, facilis maiores accusantium,</i> <small> harum cum ducimus ratione dicta quae fuga vero aliquid aspernatur
-    </small> mollitia dolore autem molestias ab qui id explicabo!10 <sup>2</sup>. log<sub>10</sub>2. Accusamus
-    distinctio enim doloribus doloremque. Odit, totam molestiae? Doloremque nihil unde sed officia ipsa saepe,
-    exercitationem repellendus aliquid at fuga nam dolor provident distinctio fugit. Expedita soluta nisi sapiente aut
-    nihil est, earum optio non id debitis obcaecati, laudantium neque.
-  </p>
-  <hr>
-  <h2>Shopping List</h2>
-  <ul>
-    <li>Milk</li>
-    <li>Water</li>
-    <li>Ice-Cream</li>
-    <li>Peanut</li>
-    <li>Maggie</li>
-    <li>Kurkure</li>
-    <li>Oil</li>
-  </ul>
-  <hr>
-  <h2>Maggie Recipie</h2>
-  <ol type="I">
-    <li>Water Boil</li>
-    <li>Break Cake</li>
-    <li>Add Vegies</li>
-    <li>Add Masala</li>
-  </ol>
-  <hr>
-  <a href="https://www.google.com/" target="_blank"> Google </a>
-  <br>
-  <a href="page2.html">Page 2</a>
-  <br>
-  <a href="../../Downloads/2023-24 Grant.pdf" target="_blank"> AMDA Grant</a>
-  <hr>
-  <h2>Images and Videos</h2>
-  <img src="../../Downloads/Donda Devang 28 Pic-4.png" alt="This is an Image" height="450">
-  <video src="../12345.mp4" height="450" controls poster="../../Downloads/Donda Devang Pic-10.jpg"></video>
-  <hr>
-  <table>
-    <thead>
-      <tr>
-        <td>Subject</td>
-        <td>Theory</td>
-        <td>Practical</td>
-        <td>Total Marks</td>
-        <td>Grades</td>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td> English </td>
-        <td> 75 </td>
-        <td> - </td>
-        <td> 75</td>
-        <td> A1 </td>
-      </tr>
-      <tr>
-        <td> Maths </td>
-        <td> 80 </td>
-        <td> 20 </td>
-        <td> 82</td>
-        <td> A1 </td>
-      </tr>
-      <tr>
-        <td> Hindi </td>
-        <td> 45 </td>
-        <td> - </td>
-        <td> 32</td>
-        <td> D2 </td>
-      </tr>
-      <tr>
-        <td> Computer </td>
-        <td> 100 </td>
-        <td>100 </td>
-        <td> 100</td>
-        <td> A1 </td>
-      </tr>
-      <tr>
-        <td> French </td>
-        <td> 66 </td>
-        <td> - </td>
-        <td> 68</td>
-        <td> B1 </td>
-      </tr>
-    </tbody>
-    <tfoot>
-      <th colspan="5"> Result : PASS</th>
-    </tfoot>
-  </table>
-</body>
+<!-- partial:index.partial.html -->
+<body data-spy="scroll" data-target="#scroll-spy">
+	
+	<!-- Navigation - Fixed Top -->
+	<nav class="navbar navbar-fixed-top">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<a class="navbar-home" href="#home" role="button">
+					<svg class="lnr lnr-home"><use xlink:href="#lnr-home"></use></svg>
+				</a>	
+				<button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#scroll-spy" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<i class="material-icons">&#xE5D2;</i>
+				</button>
+<!-- 				<a class="navbar-brand" href="#home">Boom Scroll
+					<i class="material-icons">mouse</i>
+				</a> -->
+			</div>
 
+			<!-- Collect the nav links, forms for toggling -->
+			<div class="collapse navbar-collapse" id="scroll-spy">
+
+				<!-- navbar-nav -->
+				<ul class="nav navbar-nav" style="float: left;">
+					<li class="left1">
+						<a class="navbar-brand" href="#" style="font-size: 19px;">
+							<img class="logo-img" src="/wreath.png" width="50" height="50" ALIGN=CENTER>
+							Muszelus</a></li>
+				</ul>
+				<ul class="nav navbar-nav" style="float: right;">
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#social">Social</a></li>
+					<li><a href="">Educational</a></li>
+					<li><a href="">Professional</a></li>
+					<li><a href="">Persona</a></li>			
+				</ul><!-- /.navbar-nav -->
+			</div><!-- /.navbar-collapse -->		
+		</div><!-- /.container-fluid -->
+	</nav><!-- /.fixed navigation -->
+	
+	<section id="home">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>Photo</h1>
+				</div><!-- /.col -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section><!-- /#home -->
+	
+	<section id="portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="section-header">
+						Social Media
+					</div>
+				</div><!-- /.col -->
+			</div><!-- /.row -->	
+			<div class="row">
+				<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+					<h1>Jack's Craft</h1>
+					<p>ScrollSpy.js highlights page position by applying an 'active' class to the Navigation link within a Bootstrap nav component. It does this by monitoring the #target element of the nav link within the window, waiting for it to reach a given 'Y' position, usually zero.</p>
+						
+						<p><highlight>This example</highlight> demonstrates some rich, additional features including <strong>animated scrolling</strong>, <strong>focus events</strong> as well as how to offset with a fixed navigation bar.</p>
+					
+					<p>It also shows how to ensure that the 'last' #target element is able to scroll to the top for a better user experience (UX)</p>					
+				</div><!-- /.col -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section><!-- /#about -->	
+	
+	<section id="social">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="section-header">
+						Social Media
+					</div>
+				</div><!-- /.col -->
+			</div><!-- /.row -->	
+			<div class="row">
+				<div class="video-roll--container col-xs-12">
+					
+					<ul class="video-roll1">
+						<li style = "position: relative;"><a class="tutorials-link " href="https://www.facebook.com/profile.php?id=100071166443765&mibextid=ZbWKwL" role="button" target="_blank">Facebook</a></li>
+						<li style = "position: relative;"><a class="tutorials-link " href="https://instagram.com/devangdonda?igshid=Mzc0YWU1OWY=" role="button" target="_blank">Instagram</a></li>
+						<li style = "position: relative;"><a class="tutorials-link" href="https://www.imdb.com/name/nm13740618/?ref_=ext_shr_lnk" role="button" target="_blank">IMDB</a></li>
+						<li style = "position: absolute;"><a class="tutorials-link " href="https://www.backstage.com/u/donda_devang-dk/" role="button" target="_blank">Backstage</a></li>
+						<li style = "float: right;"><a class="tutorials-link" href="https://ebosscanada.com/profile/dondadevang-dk/" role="button" target="_blank">Eboss Canada</a></li>
+						<li ><a class="tutorials-link" href="https://youtu.be/-Kaq9QOyPdM" role="button" target="_blank">YouTube</a></li>
+					</ul>				
+				</div><!-- /.col -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section>	
+	
+	<a href="#home" role="button" class="scrollTop">
+		<svg class="lnr lnr-chevron-up"><use xlink:href="#lnr-chevron-up"></use></svg>
+	</a>
+</body>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
 </html>
