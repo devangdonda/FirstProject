@@ -1,0 +1,186 @@
+.navbar {
+  background-image: linear-gradient(to bottom, rgb(170, 164, 252), rgb(200, 255, 232));
+}
+
+a.navbar-brand {
+  font-size: 24px;
+}
+div, h1, h2, h3, h4, h5, h6, p {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.logo-img{
+  margin: 10px 15px 15px 10px;
+}
+
+div.navbar-nav {
+  color: #333;
+}
+@media (min-width: 768px) {
+  div.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    float: none;
+    text-align: center;
+    color: #BDC4D0;
+  }
+}
+@media (min-width: 768px) {
+  div.navbar-nav > a {
+    float: none;
+    display: inane-block;
+    font-size: 20px;
+  }
+}
+
+div.navbar-nav > a  {
+  padding: 0 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: underline;
+  font-size: 20x;
+  font-weight: 600;
+  line-height: 70px;
+  letter-spacing: 1px;
+  color: rgb(49, 27, 128);
+}
+div.navbar-nav > a:hover {
+  background: rgba(16, 121, 144, 0.2);
+}
+div.navbar-nav >  a:focus {
+  background: rgba(16, 121, 144, 0.2);
+}
+
+div.navbar-nav > #edu {
+  color: rgb(98, 0, 21);
+}
+@media (min-width: 768px) {
+  div.navbar-nav > #edu {
+    color: rgb(98, 0, 21);
+  }
+}
+
+li > form {
+  margin: 11px;
+}
+
+.menu,.submenu{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.menu{
+  margin:12px auto 12px 12px;
+  width:800px;
+/* width:fit-content; */
+}
+.menu > li{
+  background:#2b4763;
+  float:left;
+  position:relative;
+  transform:skewX(25deg);
+}
+.menu a{
+  display:block;
+  color:#fff;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-family:Arial, Helvetica;
+  font-size:14px;
+}
+.menu li:hover{
+  background:#e79a3c;
+}
+.menu > li > a {
+  transform: skewX(-25deg);
+  padding: 1em 2em;
+}
+.submenu{
+  position:absolute;
+  width:200px;
+  left:50%;
+  margin-left:-100px;
+  transform:skewX(-25deg);
+  transform-origin:left top;
+}
+.submenu li{
+  background:#34495e;
+  position:relative;
+  overflow:hidden;
+}
+.submenu > li > a {
+  padding: 1em 2em;     
+}
+.submenu > li::after {
+  content: '';
+  position: absolute;
+  top: -125%;
+  height: 100%;
+  width: 100%;      
+  box-shadow: 0 0 50px rgba(0, 0, 0, .9);     
+}
+/* odd stuff */
+.submenu > li:nth-child(odd){
+  transform:skewX(-25deg) translateX(0);
+}
+.submenu > li:nth-child(odd) > a {
+  transform: skewX(25deg);
+}
+.submenu > li:nth-child(odd)::after {
+  right: -50%;
+  transform: skewX(-25deg) rotate(3deg);
+}
+/* even stuff */
+.submenu > li:nth-child(even){
+  transform:skewX(25deg) translateX(0);
+}
+.submenu > li:nth-child(even) > a {
+  transform: skewX(-25deg);
+}
+.submenu > li:nth-child(even)::after{
+  left: -50%;
+  transform: skewX(25deg) rotate(3deg);
+}
+.submenu,.submenu li{
+  opacity:0;
+  visibility: hidden;
+}
+.submenu li{
+  transition:all 0.2s ease-out;
+}
+.menu > li:hover .submenu,
+.menu > li:hover .submenu li{
+  opacity:1;
+  visibility:visible;
+}
+.menu > li:hover .submenu li:nth-child(odd){
+  transform: skewX(-25deg) translateX(-15px); 
+}
+.menu > li:hover .submenu li:nth-child(even){
+  transform: skewX(25deg) translateX(15px);     
+}
+/* clearfix */
+.clearfix:before,
+.clearfix:after{
+  content:"";
+  display:table;
+}
+.clearfix:after{
+  clear:both;
+}
+
+body {
+  background-color: rgb(215, 242, 251);
+  background-image: radial-gradient(circle at center, rgba(255, 255, 255, 0.803), rgb(210, 244, 247));
+}
+
+.nav {
+  background-image: linear-gradient(to right, rgba(54, 0, 92, 0.803), rgb(0, 88, 96));
+}
+.btn {
+  width: 109px;
+  height: 45px;
+  color: rgb(0, 94, 94);
+}
+
